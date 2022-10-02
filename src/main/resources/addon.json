@@ -1,0 +1,7 @@
+{
+  "uuid": "%uuid%",
+  "name": "FreeSign",
+  "mainClass": "me.freesign.FreeSignAddon",
+  "description": "Eine Sign hilfe fuer GrieferGames",
+  "author": "Sumbora"
+}
