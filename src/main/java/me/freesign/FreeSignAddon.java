@@ -3,6 +3,7 @@ package me.freesign;
 import me.freesign.events.GameTickEvent;
 import me.freesign.events.RenderEvent;
 import me.freesign.module.BotModule;
+import me.freesign.module.modules.AutoRenamerModule;
 import me.freesign.module.modules.AutoSignerModule;
 import me.freesign.module.modules.SignSimulator;
 import net.labymod.api.LabyModAddon;
@@ -42,6 +43,7 @@ public class FreeSignAddon extends LabyModAddon {
     public void registerBotModules(){
         botModules.add(new SignSimulator());
         botModules.add(new AutoSignerModule());
+        botModules.add(new AutoRenamerModule());
     }
     public void registerEvents(){
         //Register Forge Events
