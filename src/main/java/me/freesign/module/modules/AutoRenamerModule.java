@@ -172,7 +172,7 @@ public class AutoRenamerModule extends BotModule {
             Container c = Minecraft.getMinecraft().player.openContainer;
             boolean itemsLeft = false;
             for (int i = c.getInventory().size() - 36; i < c.getInventory().size(); i++) { // loops over the slots in the chest, this is why we need the -36 those slots are in the players inventory
-                if(newNamesToOrg.has(c.getInventory().get(i).getDisplayName())){
+                if(newNamesToOrg.has(c.getInventory().get(i).getDisplayName().replace("§","&"))){
                     itemsLeft = true;
                     //take from inventory
                     Minecraft.getMinecraft().playerController.windowClick(Minecraft.getMinecraft().player.openContainer.windowId,i,0,ClickType.PICKUP, Minecraft.getMinecraft().player);
