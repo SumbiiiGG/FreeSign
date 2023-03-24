@@ -1,4 +1,4 @@
-Der gratis Item Signier & Umbennen bot für GrieferGames!
+Der gratis Item Signier & Umbennen bot
 
 Bei Fragen und Problemen gerne hier auf GitHub unter Issues melden!
 
